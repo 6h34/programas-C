@@ -1,0 +1,21 @@
+int main()
+{
+    int n = 10, n1 , n2;
+    float media;
+    
+    
+    while (n>=0){
+        n--;
+        printf("digite a nota da p1: ");
+        scanf("%d",&n1);
+        printf("digite a nota da p2: ");
+        scanf("%d",&n2);
+        media =(n1+n2)/2;
+        if (media >= 7)
+        printf("%f aprovado! \n", media);
+        else
+        printf("%f rec final \n", media);
+    } 
+
+    return 0;
+}
